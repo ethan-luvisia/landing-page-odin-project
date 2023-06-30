@@ -1,10 +1,21 @@
-
-
 header {
     background-color: #1F2937;
+    color: white;
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 top {
     background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
 
 m1 {
@@ -17,4 +28,38 @@ m2 {
 
 bottom {
     background-color: white;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+
+.sign-up-1 {
+    background-color: rgb(53, 110, 232);
+    color: white;
+    display: block;
+}
+
+img {
+    width: 265px;
+    height: auto;
+    margin: 50px;
+}
+
+.left-body h1{
+    margin: 0;
+}
+
+.left-body {
+margin: 50px;
+display: flex;
+flex-direction: column;
+
 }
