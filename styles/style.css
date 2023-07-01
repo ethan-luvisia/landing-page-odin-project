@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 header {
     background-color: #1F2937;
     color: white;
@@ -26,11 +30,17 @@ m1 {
 
 bottom {
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
 }
 
 footer {
     background-color: #1F2937;
     display: flex;
+    flex: wrap;
 }
 
 ul {
@@ -122,3 +132,43 @@ m2 {
     font-weight: bold;
     align-items: center;
 }
+
+.message-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(71, 110, 249);
+    color: white;
+    border-radius: 8px;
+    height: 100px;
+}
+
+.bottom-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(71, 110, 249);
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+}
+
+.left-bottom,
+.right-bottom {
+    padding: 30px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    flex: auto;
+    margin-top: auto;
+}
+
